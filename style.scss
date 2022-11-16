@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    header{
+        nav{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                width: 10%;
+                font-family: 'Roboto', sans-serif;
+                color: gray;
+                text-transform: uppercase;
+                font-size: 2em;
+                letter-spacing: 0.1em;
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 30%;
+                list-style: none;
+                padding-left: 0;
+                li{
+                    a{
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        color: grey;
+                        text-transform: uppercase;
+                        font-size: 1em;
+                        
+                    }
+                }
+                
+                #but{
+                    background-color: #00e1ff;
+                    border-radius: 20px;
+                    padding-top:2%;
+                    padding-bottom:2%;
+                    padding-left:8% ;
+                    padding-right:8% ;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    #hero{
+        height: 650px;
+        background-image: url('./hero.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        #blocone{
+            width: 60%;
+            margin: auto;
+            margin-bottom: 0;
+            padding-bottom: 6vh;
+           
+            #star{
+                width: 40%;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color: white;
+                h2{
+                    text-align: center;
+                    color: white;
+                    font-size: 2.5em;
+                    font-family: 'Roboto', sans-serif;
+                    letter-spacing: 0.1em;
+                }
+            }
+            
+            p{
+                text-align: center;
+                color: white;
+                font-size: 1em;
+                font-family: 'Roboto', sans-serif;
+                
+            }
+        }
+    }
+    
+    #about{
+        padding-bottom: 6vh;
+        padding-top: 6vh;
+        h2{
+            margin-top: 0;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            color: #00e1ff;
+            font-size: 1.3em;
+            letter-spacing: 0.1em;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size: 1em;
+            color: black;
+            width: 60%;
+            margin: auto;
+        }
+    }
+    
+    #team{
+        padding-top: 6vh;
+        padding-bottom: 12vh;
+        background-color: #00e1ff;
+        h2{ 
+            text-align: center;
+            color: white;
+            font-size: 1.3em;
+            font-family: 'Roboto', sans-serif;
+            letter-spacing: 0.1em;
+            text-transform: capitalize;
+        }
+        #blocteam{
+            padding-bottom: 12vh;
+            padding-top: 12vh;
+            width: 35%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            @media only screen and (max-width: 768px){
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+            };
+            .john{
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                h3{
+                    color: white;
+                    font-size: 1em;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 800; 
+                }
+                p{
+                    color: white;
+                    font-size: 1em;
+                    font-family: 'Roboto', sans-serif; 
+                    font-style: italic; 
+                    margin-top: 0;
+                }
+            }
+        }
+        #butt{
+            width: 14%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            button{
+                background-color: #00e1ff;
+                border-radius: 20px;
+                border: 1px white solid;
+                padding-left:2vw ;
+                padding-right: 2vw;
+                padding-top: 1vh;
+                padding-bottom: 1vh;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+body header nav {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav h1 {
+  width: 10%;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  list-style: none;
+  padding-left: 0;
+}
+body header nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+body header nav ul #but {
+  background-color: #00e1ff;
+  border-radius: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+body header nav ul #but a {
+  color: white;
+}
+body #hero {
+  height: 650px;
+  background-image: url("./hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+body #hero #blocone {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 6vh;
+}
+body #hero #blocone #star {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+body #hero #blocone #star h2 {
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+}
+body #hero #blocone p {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+}
+body #about {
+  padding-bottom: 6vh;
+  padding-top: 6vh;
+}
+body #about h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #00e1ff;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+body #about p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: black;
+  width: 60%;
+  margin: auto;
+}
+body #team {
+  padding-top: 6vh;
+  padding-bottom: 12vh;
+  background-color: #00e1ff;
+}
+body #team h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+body #team #blocteam {
+  padding-bottom: 12vh;
+  padding-top: 12vh;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  body #team #blocteam {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+body #team #blocteam .john {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #team #blocteam .john img {
+  width: 100%;
+  height: auto;
+}
+body #team #blocteam .john h3 {
+  color: white;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+body #team #blocteam .john p {
+  color: white;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-top: 0;
+}
+body #team #butt {
+  width: 14%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+body #team #butt button {
+  background-color: #00e1ff;
+  border-radius: 20px;
+  border: 1px white solid;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+body #team #butt button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
